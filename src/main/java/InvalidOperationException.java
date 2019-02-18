@@ -8,7 +8,8 @@ import java.lang.*;  // for class Exception
 /**
 Class:	InvalidOperationException
 
-Description: Exception class 
+Description: Exception class for invalid operation
+
 */
 public class InvalidOperationException extends RuntimeException {
 
