@@ -5,6 +5,11 @@ package main.java;
  */
 import java.lang.*;  // for class Exception
 
+/**
+Class:	InvalidOperationException
+
+Description: Exception class 
+*/
 public class InvalidOperationException extends RuntimeException {
 
         /**
