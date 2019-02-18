@@ -76,7 +76,9 @@ public class PowerSet
     public static List<List<Integer>> powerSetImplementation2(int[] myArray) throws NullPointerException
     {
 
-        if (myArray == null) return null;
+        if (myArray == null){
+		return null;
+	}
 
             Arrays.sort(myArray);
 
